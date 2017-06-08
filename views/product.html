@@ -1,0 +1,23 @@
+<div ng-controller="productController" ng-init="init()">
+	<div class="prod-id">Product {{product.id}}</div>
+	<div class="prod-title">{{product.title}}</div>
+	<div class="prod-sdesc">{{product.shortDescription}}</div>
+    &nbsp;
+	<div class="prod-ldesc">{{product.longDescription}}</div>
+    <br>
+	<div class="prod-price">£{{product.price}}</div>
+    <br>
+    
+    
+
+
+	<div class="image-strip" align="center">
+    	<br>
+		<li ng-repeat="image in product.images"><img ng-src="{{image}}" width="200px" height="200px"/></li>
+		<br>
+        <br>
+        <div class="img-strip-cptn">{{product.title}}</div>
+        <br>
+    </div>
+
+</div>

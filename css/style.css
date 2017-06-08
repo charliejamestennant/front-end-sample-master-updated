@@ -1,0 +1,136 @@
+/* Charlie Tennant - 8/06/17 */
+/*---------------------------*/
+
+/* Changed body colour and font family */
+
+body{
+	background-color:white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Menu Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f442aa;
+	text-align:center;
+}
+
+li {
+	display:inline;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+h1{
+	text-align:center;
+	font-size:36px;
+}
+
+/* Category Title */
+
+.cat-title{
+	font-size:36px;
+	text-align:center;
+}
+
+.cat-content{
+	text-align:center;
+}
+
+.hrs{
+	visibility:hidden;
+}
+
+hr{
+	visibility:hidden;
+}
+
+/* Product Title */
+
+.prod-title{
+	font-size:36px;
+	text-align:center;
+}
+
+/* Product Number/ID */
+
+.prod-id{
+	font-size:12px;
+	font-style:oblique;
+	text-align:center;
+}
+
+/* Product Short Description / Tagline */
+
+.prod-sdesc{
+	text-align:center;
+	color:#f442aa;
+}
+
+/* Product Long Description */
+
+.prod-ldesc{
+	font-size:12px;
+	text-align:center;
+	margin-right:100px;
+	margin-left:100px;
+}
+
+/* Product Price */
+
+.prod-price{
+	font-size:22px;
+	color:#f442aa;
+	text-align:center;
+	margin-right:100px;
+	margin-left:100px;
+}
+
+/* Image Strip/Row */
+
+
+.image-strip{
+	background-color:#f442aa;
+}
+
+/* Home Link at top */
+
+.top-link{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* Image Strip (on category page) product captions/titles */
+
+.img-strip-cptn{
+	color: white;
+}
+
+.prod-grid{
+	background-color:#f442aa;
+	border:thick;
+}
+
+.prod-grid-cptn{
+	color:white;
+	margin-top:20px;
+}
